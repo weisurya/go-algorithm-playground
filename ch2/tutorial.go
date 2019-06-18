@@ -18,7 +18,7 @@ the different between any 2 terms is constant
 a = first term of sequence
 d = constant difference
 n = nth term of AP
-T = output
+T = output og AP
 S = sum of AP
 */
 func arithmeticProgression(a, n, d int) int {
@@ -26,5 +26,5 @@ func arithmeticProgression(a, n, d int) int {
 }
 
 func sumOfAP(a, n, d int) int {
-	return n * (2*a + (n-1)*d) / 2
+	return n * (2 * arithmeticProgression(a, n, d)) / 2
 }
